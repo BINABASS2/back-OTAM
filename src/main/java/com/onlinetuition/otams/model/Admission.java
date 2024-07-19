@@ -21,9 +21,9 @@ public class Admission {
 
         private String studentName;
 
-        @OneToMany(mappedBy = "admission", cascade = CascadeType.ALL)
-        private Set<Assessment> assessments;
-
-        @OneToMany(mappedBy = "admission", cascade = CascadeType.ALL)
-        private Set<Assignment> assignments;
+//        @OneToMany(mappedBy = "admission")
+//        private Set<Assessment> assessments;
+//
+//        @OneToMany(mappedBy = "admission")
+//        private Set<Assignment> assignments;
     }
